@@ -5,14 +5,15 @@ import { Route, Routes } from 'react-router-dom';
 import Dashboard from './pages/dashboard/Dashboard';
 import Test from './pages/test/Test';
 import { useState } from 'react';
-
+import Login from './pages/Login/Login';
 function App() {
-  const [chosenPage, setChosenPage] = useState('Home')
+  const [chosenPage, setChosenPage] = useState('Login')
   return (
     <div className="App">
       <Routes>
-        <Route path='/' element={<Dashboard chosenPage={chosenPage} setChosenPage={setChosenPage}/>}>
-          <Route path='' element={<Test/>} />
+        {/* <Route path='/' element={<LoginForm/>}/> */}
+        {/* <Route path='/' element={<Login chosenPage={chosenPage} setChosenPage={setChosenPage}/>}> */}
+          <Route path='/' element={<Login chosenPage={chosenPage} setChosenPage={setChosenPage}/>}>
           <Route path='Chapter' element={<Test/>} />
           {/* <Route path='' element={<Sidebar/>} /> */}
           {/* <Route path='chapter' element={<SidebarChapter/>} />
