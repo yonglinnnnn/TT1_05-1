@@ -21,3 +21,6 @@ class Database:
     
     def get_connection(self):
         return self.connection
+    
+    def get_cursor(self):
+        return self.connection.cursor()
