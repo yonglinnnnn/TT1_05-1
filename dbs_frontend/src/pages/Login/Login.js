@@ -23,8 +23,8 @@ const Login = ({ onLogin }) => {
                 console.log('Fields cannot be empty');
             }
 
-            const response = await fetch('add post api url here', {
-                method: 'POST',
+            const response = await fetch('add GET api url here', {
+                method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
                 },
