@@ -99,6 +99,7 @@ mistune==3.0.2
 ml-dtypes==0.2.0
 multidict==6.0.4
 mypy-extensions==1.0.0
+mysql-connector-python==8.3.0
 nbclient==0.8.0
 nbconvert==7.9.2
 nbformat==5.9.2
@@ -134,6 +135,7 @@ pydantic_core==2.6.3
 Pygments==2.16.1
 pyparsing==3.1.1
 python-dateutil==2.8.2
+python-dotenv==1.0.0
 python-json-logger==2.0.7
 pytz==2023.3.post1
 PyYAML==6.0.1
